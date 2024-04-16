@@ -31,4 +31,10 @@ weeks=int(remdays/7)
 print(weeks)
 days=remdays%7
 print(days)
+#Leap Year or not
+year=int(input("Enter year"))
+if(year%4==0 and year%400==0 and year%100!=0):
+    print("Year is leap year")
+else:
+    print("Year is non-leap year")
 
